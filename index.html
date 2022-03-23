@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Muhammad Ajie Rizaldi</title>
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
-            Logo
+            <img src="images/logo.png" alt="logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,24 +26,128 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Shop</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+      <!-- End Navbar -->
     
+      <!-- Cover Section -->
+      <section>
+          <div class="cover-img">
+              <img src="images/cover-img.jpg" alt="cover" class="img-responsive">
+          </div>
+      </section>
+      <!-- End Cover Section -->
+
+      <!-- Card Section -->
+      <section>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="profile-section">
+                                    <div class="d-flex">
+                                        <img src="images/profile.png" alt="photo" class="img-responsive img-circle">
+                                        <div class="profile-info">
+                                            <h5>Muhammad Ajie Rizaldi</h5>
+                                            <p>Full Stack Developer</p>
+                                            <span><i class="fa-solid fa-location-dot"></i><p>Bekasi, ID</p></span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-me">
+                                    <h5>About Me</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia!</p>
+                                </div>
+                                <div class="contact-me">
+                                    <h5>Contact Me</h5>
+                                        <p><i class="fa-solid fa-envelope"></i> ajiemuhammad2@gmail.com</p>
+                                        <p><i class="fa-brands fa-whatsapp"></i> +62895349475546</p>
+                                        <div class="account-list">
+                                                <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                                <a href=""><i class="fa-brands fa-codepen"></i></a>
+                                                <a href=""><i class="fa-brands fa-github"></i></a>
+                                        </div>
+                                </div>
+                            <div class="skill-section">
+                                <h5>Skills</h5>
+                                <ul>
+                                    <li><b>Programming Language: </b>PHP, Javascript, C++, Kotlin</li>
+                                    <li><b>Frameworks: </b>Codeigniter, Laravel, Express Js</li>
+                                    <li><b>Database: </b>MySQL, MariaDB</li>
+                                    <li><b>Version Control: </b>Git, Github, Gitlab</li>
+                                    <li><b>Tools: </b>Git, Github, Gitlab, Visual Studio Code, Figma, Wordpress</li>
+                                </ul>
+                            </div>
+                            <div class="education-section">
+                                <h5>Education</h5>
+                                <p>Bachelor Degree, Computer Science</p>
+                                <p>Universitas Singaperbangsa Karawang</p>
+                                <p>GPA: 3.72 <i>Scale 1 - 4</i></p>
+                            </div>
+                            <div class="language-section">
+                                <h5>Language</h5>
+                                <ul>
+                                    <li><b>Indonesia: </b>Native</li>
+                                    <li><b>English: </b>Active</li>
+                                    <li><b>Japan: </b>Passive</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-8">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <ul>
+                                    <li><b>PT. Imaji Creative</b> - Wordpress Developer intern (Feb 2020 - Jul 2020)</li>
+                                    <li><b>Kementerian ATR/BPN RI</b> - Internship Trainee (Jul 2021 - Okt 2021)</li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Ini apa hayoooo</div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- End Card Section -->
+
+      <!-- Aside Section -->
+      <aside>
+
+      </aside>
+      <!-- End Aside Section -->
+
+      <!-- Footer -->
+      <footer>
+        <!-- copyright text -->
+        <p class="text-center">&copy; Copyright 2020 Muhammad Ajie Rizaldi</p>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,60 @@
+nav .navbar-brand {
+    padding-right: 57px;
+}
+
+nav li {
+    padding-right: 80px;
+}
+
+section .cover-img .img-responsive {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 100%;
+}
+
+.content li .card {
+    list-style: none;
+}
+
+.card {
+    margin-top: -80px;
+}
+
+.card-body {
+    width: 100%;
+}
+
+.profile-info {
+    margin-left: 25px;
+}
+
+.about-me {
+    margin-top: 25px;
+}
+
+.contact-me p {
+    margin-bottom: 10px;
+}
+
+.skill-section {
+    margin-top: 25px;
+}
+
+.education-section h5 {
+    margin-bottom: 15px;
+}
+
+.education-section p {
+    line-height: 10px;
+}
+
+footer {
+    background-color: #1C2021;
+    color: white
+}
