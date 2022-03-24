@@ -12,30 +12,11 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="logo">
+          <a class="navbar-brand mx-auto d-block" href="#">
+            <img src="images/cover.jpg" alt="Icon" width="200px">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">New Photos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </nav>
       <!-- End Navbar -->
@@ -53,7 +34,7 @@
         <div class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
                                 <div class="profile-section">
@@ -76,7 +57,7 @@
                                         <p><i class="fa-solid fa-envelope"></i> ajiemuhammad2@gmail.com</p>
                                         <p><i class="fa-brands fa-whatsapp"></i> +62895349475546</p>
                                         <div class="account-list">
-                                                <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                                <a href="https://www.linkedin.com/in/muhammad-ajie-rizaldi-569852200/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                                                 <a href=""><i class="fa-brands fa-codepen"></i></a>
                                                 <a href=""><i class="fa-brands fa-github"></i></a>
                                         </div>
@@ -108,45 +89,99 @@
                         </div>
                     </div>
                 </div>
-                    <div class="col-8">
+                <div class="col-md-8">
+                    <div class="field">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Experience</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Recent Projects</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <ul>
-                                    <li><b>PT. Imaji Creative</b> - Wordpress Developer intern (Feb 2020 - Jul 2020)</li>
-                                    <li><b>Kementerian ATR/BPN RI</b> - Internship Trainee (Jul 2021 - Okt 2021)</li>
-                                </ul>
+                                <div class="container-fluid mt-5">
+                                    <!-- <div class="row">
+                                        <div class="col-md-6 offset-md-3"> -->
+                                            <h4 class="text-center">My Experience</h4>
+                                            <p class="text-center">My Previous Jobs and My Qualification</p>
+                                            <ul class="timeline">
+                                                <li>
+                                                    <a href="#">Fullstack Web Development Student</a>
+                                                    <p>Binar Academy</p>
+                                                    <p>Feb 2022 - Jul 2022</p>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Internship Trainee</a>
+                                                    <p>Kementerian ATR/BPN Republik Indonesia</p>
+                                                    <p>Jul 2021 - Okt 2021</p>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Wordpress Developer</a>
+                                                    <p>PT. Imaji Kreatif Indonesia</p>
+                                                    <p>Feb 2020 - Jul 2020</p>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bachelor Degree of Informatics Engineering</a>
+                                                    <p>Universitas Singaperbangsa Karawang</p>
+                                                    <p>2018 - 2022</p>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Science Class</a>
+                                                    <p>SMA Negeri 3 Tambun Selatan</p>
+                                                    <p>2014 - 2017</p>
+                                                </li>
+                                            </ul>
+                                        <!-- </div>
+                                    </div> -->
+                                </div>
                             </div>
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Ini apa hayoooo</div>
-                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="gallery">
+                                    <div class="container mt-5">
+                                    <h4 class="text-center">My Recent Projects</h4>
+                                    <p class="text-center">My Recent Projects</p>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <a href="https://codepen.io/ajierizaldi19/pen/XWMxGgm" target="_blank"><img src="images/project1.png" alt="project"></a>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <a href="https://codepen.io/ajierizaldi19/pen/XWMxGgm" target="_blank"><img src="images/project1.png" alt="project" ></a>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <a href="https://codepen.io/ajierizaldi19/pen/XWMxGgm" target="_blank"><img src="images/project1.png" alt="project" ></a>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <a href="https://codepen.io/ajierizaldi19/pen/XWMxGgm" target="_blank"><img src="images/project1.png" alt="project" ></a>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <a href="https://codepen.io/ajierizaldi19/pen/XWMxGgm" target="_blank"><img src="images/project1.png" alt="project" ></a>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <a href="https://codepen.io/ajierizaldi19/pen/XWMxGgm" target="_blank"><img src="images/project1.png" alt="project" ></a>
+                                            </div>
+                                        </div>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
       </section>
       <!-- End Card Section -->
 
-      <!-- Aside Section -->
-      <aside>
-
-      </aside>
-      <!-- End Aside Section -->
-
       <!-- Footer -->
-      <footer>
-        <!-- copyright text -->
-        <p class="text-center">&copy; Copyright 2020 Muhammad Ajie Rizaldi</p>
+      <footer> 
+        <div class="mt-5 p-4 bg-dark text-white text-center">
+            <p class="text-center">&copy; Copyright 2022 Muhammad Ajie Rizaldi</p>
+        </div>
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
